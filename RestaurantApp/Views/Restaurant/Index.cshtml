@@ -1,0 +1,133 @@
+@model List<RestaurantApp.Restaurant.Restaurant>
+
+<h2>LIST</h2>
+
+<!-- Styled Table -->
+<table class="custom-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Cuisine Type</th>
+            <th>Rating</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var restaurant in Model)
+        {
+            <tr>
+                <td>@restaurant.Name</td>
+                <td>@restaurant.Location</td>
+                <td>@restaurant.CuisineType</td>
+                <td>@restaurant.Rating</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@restaurant.Id" style="margin-right: 10px;"
+                        class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Edit" asp-route-id="@restaurant.Id" style="margin-right: 10px;"
+                        class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@restaurant.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Add Button -->
+<a asp-action="Create" class="add-btn">Add New Restaurant</a>
+
+<!-- Linking Custom CSS -->
+<style>
+    /* Table Styles */
+    .custom-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+        background-color: white;
+    }
+
+    /* Header Styling */
+    .custom-table th {
+        background-color: #e9e7e7;
+        color: #333;
+        text-align: left;
+        padding: 12px;
+        border: 1px solid black;
+    }
+
+    /* Row Styling */
+    .custom-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+    /* Hover Effect */
+    .custom-table tr:hover td {
+        background-color: #f1f1f1;
+    }
+
+    /* Button Styles */
+    .action-btn {
+        text-decoration: none;
+        width: 50px;
+        /* Set the width */
+        height: 50px;
+        /* Match the height to the width */
+        margin-right: 10px;
+        /* Add space between buttons */
+        font-size: 0.9rem;
+        font-family: Arial, sans-serif;
+        color: white;
+        text-align: center;
+        /* Center-align text horizontally */
+        line-height: 50px;
+        /* Center-align text vertically */
+        display: inline-block;
+        /* Ensure proper alignment */
+        border-radius: 0;
+        /* Remove rounded corners */
+        padding: 0;
+        /* Ensure no extra padding */
+    }
+
+    /* Specific button colors */
+    .details-btn {
+        background-color: #0004ff;
+        /* Blue */
+    }
+
+    .edit-btn {
+        background-color: #ff4d07;
+        /* Yellow */
+    }
+
+    .delete-btn {
+        background-color: #dc3545;
+        /* Red */
+    }
+
+    .add-btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        font-family: Arial, sans-serif;
+    }
+
+    .add-btn:hover {
+        background-color: #218838;
+    }
+
+    /* Hover Effects */
+    .action-btn:hover {
+        opacity: 0.8;
+    }
+</style>

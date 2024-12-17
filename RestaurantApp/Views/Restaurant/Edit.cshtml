@@ -1,0 +1,30 @@
+@model RestaurantApp.Restaurant.Restaurant
+
+<h2>Edit Restaurant</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div>
+        <label for="Name">Name:</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Location">Location:</label>
+        <input asp-for="Location" class="form-control" />
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="CuisineType">Cuisine Type:</label>
+        <input asp-for="CuisineType" class="form-control" />
+        <span asp-validation-for="CuisineType" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Rating">Rating:</label>
+        <input asp-for="Rating" type="number" step="0.1" class="form-control" />
+        <span asp-validation-for="Rating" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Save Changes</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary">Cancel</a>

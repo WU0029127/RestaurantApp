@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Restaurant
+build_property.RootNamespace = Restaurant
+build_property.ProjectDir = /Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/Views/Restaurant/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdGF1cmFudC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/Views/Restaurant/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdGF1cmFudC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/Views/Restaurant/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdGF1cmFudC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/Views/Restaurant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzdGF1cmFudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/anon/Desktop/Desktop - anon/JT/Westcliff/FALL24/PRG320/Week6/Homework06/RestaurantApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-svub7d23fh
